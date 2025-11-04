@@ -1,0 +1,190 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": [
+			"How to end your randomized playthrough.",
+			"Out With A Bang (Elite Race Qualified): Complete the 12 Episodes and end in 3rd or higher in the final Elite Race.",
+			"Perfection: Complete the Perfection achievement, coming in 1st in all Events."
+			],
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 0
+            }
+        }
+    },
+    "user": {
+        "_commented_out_option":{
+            "type": "Toggle",
+            "default": true
+        },
+        "_Example_Toggle":{
+            "description": [
+                "This is a Toggle",
+                "A simple boolean, aka True or False set the initial value with \"default\""
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Example Options"
+        },
+        "_Example_Choice":{
+            "type": "Choice",
+            "description": [
+                "This is a Choice",
+                "Let the user pick from a list of values",
+                "allow_custom_value let a player define their own text value",
+                "Currently the only use for Choice in Manual outside of hooks is the goal"
+            ],
+            "values": {
+                "start":0,
+                "test":1
+             },
+            "default": 0,
+            "allow_custom_value": false,
+            "group": "Example Options"
+        },
+        "_Example_Range":{
+            "type": "Range",
+            "description": [
+                "This is a Range",
+                "Allow the player to specify a value between 'start' and 'end'",
+                "if you include a \"values\" you can define the label for certain values",
+                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
+            ],
+            "range_start": 0,
+            "default": 1,
+            "range_end": 10,
+            "values": {"example": 2},
+            "group": "Example Options"
+        },
+        "_DLC_enabled":{
+            "display_name": "DLC Enabled",
+            "description": "Is the Dlc enabled?",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ],
+            "default": true
+        },
+        "enable_achievement_decals":{
+            "description": [
+                "Enable the non-grindy achievement decals as Locations. Does not include online achievments or the achievement for owning Pure."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Split/Second Options"
+        },
+		"enable_grindy_decals":{
+            "description": [
+                "Enable the grindy achievement decals as Locations. Does not include online achievments or the achievement for owning Pure."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Split/Second Options"
+        },
+		"progressive_episodes":{
+            "description": [
+                "Enable a progressive unlock method for Episodes, to reduce chances of getting stuck for long periods of time.",
+				"When completing an Elite Race, always choose the leftmost Episode."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Split/Second Options"
+        },
+		"progressive_cars":{
+            "description": [
+                "Enable a progressive unlock method for cars, to be similar to the vanilla game.",
+				"If you enable this option, you can view the car order on the wiki, starting from the Ryback Brawler: https://splitsecond-velocity.fandom.com/wiki/Brawler"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Split/Second Options"
+        },
+	    "random_starter_car":{
+            "description": [
+                "Select whether to begin with only 1 of the 3 starter cars. The others become Items."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Split/Second Options"
+        },
+"       random_car":{
+            "description": [
+                "Select whether to begin with a random additional car, selected from all cars."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Split/Second Options"
+        },
+	    "variant_cars":{
+            "description": [
+                "Select whether to allow variants of cars as filler items."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Split/Second Options"
+        },
+		"win_position":{
+            "type": "Range",
+            "description": [
+                "Select what event position counts as a Win, for Win checks.",
+				"Purely informational."
+            ],
+            "range_start": 1,
+            "default": 3,
+            "range_end": 8,
+            "group": "Split/Second Options"
+        },
+		"lock_power_plays":{
+            "description": [
+                "Select whether Power Plays are locked as Items. You cannot use Power Plays until they have been obtained."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Split/Second Options"
+        },
+		"progressive_power_plays":{
+            "description": [
+                "Select whether Power Plays are progressive.",
+				"If enabled, Level 1 Power Plays will be unlocked before Level 2 Power Plays."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Split/Second Options"
+        },
+	    "random_car_traps":{
+            "description": [
+                "Select whether to enable Random Car Traps, which force you to choose a random unlocked car for the next Event when triggered.",
+				"Use a randomization method of your choice when triggered.",
+				"Use the filler_traps option above to change the amount of traps."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Trap Options"
+        },
+		"forced_power_play_traps":{
+            "description": [
+                "Select whether to enable Forced Power Play Traps, which force you to trigger a Power Play when triggered (regardless of unlock).",
+				"Use a method of your choice, such as tapping the Power Play keys or turning on an autoclicker when triggered, until the next activation.",
+				"Use the filler_traps option above to change the amount of traps."
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Trap Options"
+        }
+	}
+}

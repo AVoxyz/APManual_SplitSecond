@@ -1,0 +1,87 @@
+{
+  "Rigged to Blow": {
+    "starting": true,
+    "connects_to": [
+      "Big Rig Boom",
+      "Splashdown"
+    ],
+    "requires": []
+  },
+  "Big Rig Boom": {
+    "connects_to": [
+      "Splashdown",
+      "Sunset Fire",
+      "Hit The Skids"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Progressive Episode Unlock|",
+    "starting": false
+  },
+  "Splashdown": {
+    "connects_to": [
+      "Big Rig Boom",
+      "Sunset Fire"
+    ],
+    "requires": "|Splashdown Unlock| OR |Progressive Episode Unlock:2|"
+  },
+  "Sunset Fire": {
+    "connects_to": [
+      "Big Rig Boom",
+      "Splashdown",
+      "Hit The Skids"
+    ],
+    "requires": "(|Sunset Fire Unlock| AND (|Big Rig Boom Unlock| OR |Splashdown Unlock|)) OR |Progressive Episode Unlock:3|"
+  },
+  "Hit The Skids": {
+    "connects_to": [
+      "Midway Pass"
+    ],
+    "requires": "(|Hit The Skids Unlock| AND (|Big Rig Boom Unlock| OR |Sunset Fire Unlock|))OR |Progressive Episode Unlock:4|"
+  },
+  "Midway Pass": {
+    "connects_to": [
+      "Threshold Break",
+      "Cleaning Up"
+    ],
+    "requires": "(|Midway Pass Unlock| AND |Big Rig Boom Unlock| AND |Splashdown Unlock| AND |Sunset Fire Unlock| AND |Hit The Skids Unlock|) OR |Progressive Episode Unlock:5|"
+  },
+  "Threshold Break": {
+    "connects_to": [
+      "Cleaning Up",
+      "Scorched Rubber"
+    ],
+    "requires": "(|Threshold Break Unlock| AND |Midway Pass Unlock|) OR |Progressive Episode Unlock:6|"
+  },
+  "Cleaning Up": {
+    "connects_to": [
+      "Scorched Rubber",
+      "Boneyard Rush"
+    ],
+    "requires": "(|Cleaning Up Unlock| AND (|Threshold Break Unlock| OR |Scorched Rubber Unlock|))OR |Progressive Episode Unlock:7|"
+  },
+  "Scorched Rubber": {
+    "connects_to": [
+      "Cleaning Up",
+      "Boneyard Rush",
+      "One Last Push"
+    ],
+    "requires": "(|Scorched Rubber Unlock| AND (|Threshold Break Unlock| OR |Cleaning Up Unlock|)) OR |Progressive Episode Unlock:8|"
+  },
+  "Boneyard Rush": {
+    "connects_to": [
+      "One Last Push",
+      "Out With A Bang"
+    ],
+    "requires": "(|Boneyard Rush Unlock| AND (|Cleaning Up Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:9|"
+  },
+  "One Last Push": {
+    "connects_to": [
+      "Boneyard Rush",
+      "Out With A Bang"
+    ],
+    "requires": "(|One Last Push Unlock| AND (|Boneyard Rush Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:10|"
+  },
+  "Out With A Bang": {
+    "connects_to": [],
+    "requires": "(|Out With A Bang Unlock| AND |Threshold Break Unlock| AND |Cleaning Up Unlock| AND |Scorched Rubber Unlock| AND |Boneyard Rush Unlock| AND |One Last Push Unlock|) OR |Progressive Episode Unlock:11|"
+  }
+}

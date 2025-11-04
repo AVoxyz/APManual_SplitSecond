@@ -1,0 +1,1912 @@
+[
+  {
+    "name": "Rigged to Blow (Race 1)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Race 2)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Elimination 1)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Elimination 2)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Detonator Bonus)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Elite Race)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Splashdown Unlock| OR |Progressive Episode Unlock|"
+  },
+  {
+    "name": "Tutorial",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event"
+    ],
+    "requires": "((|Level 1 Power Plays| AND |Level 2 Power Plays|) OR |Progressive Power Plays:2|)"
+  },
+  {
+    "name": "Big Rig Boom (Race 1)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Survival)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Race 2)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Detonator)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Air Strike Bonus)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Air Strike"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Elite Race)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "(|Splashdown Unlock| OR |Progressive Episode Unlock:2|) OR ((|Sunset Fire Unlock| AND (|Big Rig Boom Unlock| OR |Splashdown Unlock|)) OR |Progressive Episode Unlock:3|) OR ((|Hit The Skids Unlock| AND (|Big Rig Boom Unlock| OR |Sunset Fire Unlock|))OR |Progressive Episode Unlock:4|)"
+  },
+  {
+    "region": "Splashdown",
+    "name": "Splashdown (Race 1)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Race 2)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Air Strike 1)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Air Strike"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Elimination)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Air Strike Bonus)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Air Strike"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Elite Race)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "(|Big Rig Boom Unlock| OR |Progressive Episode Unlock|) OR ((|Sunset Fire Unlock| AND (|Big Rig Boom Unlock| OR |Splashdown Unlock|)) OR |Progressive Episode Unlock:3|)"
+  },
+  {
+    "region": "Sunset Fire",
+    "name": "Sunset Fire (Elimination)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Detonator 1)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Race 1)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Race 2)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Detonator Bonus)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Elite Race)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "(|Big Rig Boom Unlock| OR |Progressive Episode Unlock|) OR (|Splashdown Unlock| OR |Progressive Episode Unlock:2|) OR ((|Hit The Skids Unlock| AND (|Big Rig Boom Unlock| OR |Sunset Fire Unlock|))OR |Progressive Episode Unlock:4|)"
+  },
+  {
+    "region": "Hit The Skids",
+    "name": "Hit The Skids (Race 1)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Survival)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Race 2)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Air Strike)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Air Strike"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Detonator Bonus)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Elite Race)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "(|Midway Pass Unlock| AND |Big Rig Boom Unlock| AND |Splashdown Unlock| AND |Sunset Fire Unlock| AND |Hit The Skids Unlock|) OR |Progressive Episode Unlock:5|"
+  },
+  {
+    "name": "Midway Pass (Race 1)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass (Air Revenge)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Air Revenge"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "name": "Midway Pass (Race 2)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass (Survival)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass (Detonator Bonus)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass (Elite Race)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "((|Threshold Break Unlock| AND |Midway Pass Unlock|) OR |Progressive Episode Unlock:6|) OR ((|Cleaning Up Unlock| AND (|Threshold Break Unlock| OR |Scorched Rubber Unlock|))OR |Progressive Episode Unlock:7|)"
+  },
+  {
+    "region": "Threshold Break",
+    "name": "Threshold Break (Race 1)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break (Air Revenge)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Air Revenge"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "name": "Threshold Break (Race 2)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break (Detonator)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break (Elimination Bonus)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break (Elite Race)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "((|Cleaning Up Unlock| AND (|Threshold Break Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:7|) OR ((|Scorched Rubber Unlock| AND (|Threshold Break Unlock| OR |Cleaning Up Unlock|)) OR |Progressive Episode Unlock:8|)"
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Race 1)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Race 2)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Elimination)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Air Revenge)",
+    "category": [
+      "Event",
+      "Air Revenge"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Detonator Bonus)",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cleaning Up (Elite Race)",
+    "region": "Cleaning Up",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "((|Scorched Rubber Unlock| AND (|Threshold Break Unlock| OR |Cleaning Up Unlock|)) OR |Progressive Episode Unlock:8|) OR ((|Boneyard Rush Unlock| AND (|Cleaning Up Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:9|)"
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Race 1)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Air Revenge)",
+    "category": [
+      "Event",
+      "Air Revenge"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Race 2)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Survival)",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Detonator Bonus)",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Elite Race)",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Race)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Elimination 1)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Survival)",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Detonator)",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Elimination Bonus)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Elite Race)",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "((|Cleaning Up Unlock| AND (|Threshold Break Unlock| OR |Scorched Rubber Unlock|))OR |Progressive Episode Unlock:7|) OR ((|Boneyard Rush Unlock| AND (|Cleaning Up Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:9|) OR ((|One Last Push Unlock| AND (|Boneyard Rush Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:10|)"
+  },
+  {
+    "region": "One Last Push",
+    "name": "One Last Push (Elimination 1)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "One Last Push (Race)",
+    "region": "One Last Push",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "One Last Push (Survival 1)",
+    "region": "One Last Push",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "name": "One Last Push (Elimination 2)",
+    "region": "One Last Push",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "One Last Push (Survival Bonus)",
+    "region": "One Last Push",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "region": "One Last Push",
+    "name": "One Last Push (Elite Race)",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": "((|Boneyard Rush Unlock| AND (|Cleaning Up Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:9|) OR ((|Out With A Bang Unlock| AND |Threshold Break Unlock| AND |Cleaning Up Unlock| AND |Scorched Rubber Unlock| AND |Boneyard Rush Unlock| AND |One Last Push Unlock|) OR |Progressive Episode Unlock:11|)"
+  },
+  {
+    "region": "Out With A Bang",
+    "name": "Out With A Bang (Elimination)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Out With A Bang (Race)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": [],
+    "region": "Out With A Bang"
+  },
+  {
+    "name": "Out With A Bang (Survival)",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": [],
+    "region": "Out With A Bang"
+  },
+  {
+    "name": "Out With A Bang (Detonator)",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": [],
+    "region": "Out With A Bang"
+  },
+  {
+    "name": "Out With A Bang (Air Revenge Bonus)",
+    "category": [
+      "Event",
+      "Air Revenge"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|",
+    "region": "Out With A Bang"
+  },
+  {
+    "name": "Out With A Bang (Elite Race)",
+    "region": "Out With A Bang",
+    "category": [
+      "Event",
+      "Elite"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Out With A Bang (Elite Race Qualified)",
+    "victory": true,
+    "region": "Out With A Bang",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Winner",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Qualifier",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Survivor",
+    "region": "Threshold Break",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Made The Podium",
+    "region": "Out With A Bang",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Season Champion",
+    "region": "Out With A Bang",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Perfection",
+    "region": "Out With A Bang",
+	"victory": true,
+    "category": [
+      "Perfection Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Right on Track",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Moving Ahead",
+    "region": "Midway Pass",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Leading The Way",
+    "region": "Out With A Bang",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Race Winner",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Untouchable",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Split/Second",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Eliminator",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Eliminator Efficiency",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rope A Dope",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Power Up",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "name": "I Have The Power",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Level 2 Power Plays| OR |Progressive Power Plays:2|"
+  },
+  {
+    "name": "Follow Me",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Bully",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cheapskate",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Better Luck Next Time",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Zero To Hero",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Frequent Flyer",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Swept Away",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Boneyard Rush Unlock| OR |One Last Push Unlock| OR |Progressive Episode Unlock:9|"
+  },
+  {
+    "name": "The Pain Train",
+    "region": "Hit The Skids",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shipwrecked",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Splashdown Unlock| OR |Progressive Episode Unlock:1|"
+  },
+  {
+    "name": "High Pipe",
+    "region": "Midway Pass",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Heavyweight",
+    "region": "Rigged to Blow",
+    "category": [
+      "Decal",
+      "Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "High Five",
+    "region": "Rigged to Blow",
+    "category": [
+      "Decal",
+      "Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Great Explorer",
+    "region": "Rigged to Blow",
+    "category": [
+      "Decal",
+      "Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Going The Distance",
+    "region": "Rigged to Blow",
+    "category": [
+      "Decal",
+      "Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "The Time is Right",
+    "region": "Rigged to Blow",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Beat The Team",
+    "region": "Threshold Break",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Beat The Team II: The Revenge",
+    "region": "Midway Pass",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Keep On Truckin'",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Hit The Skids Unlock| OR |Progressive Episode Unlock:4|"
+  },
+  {
+    "name": "Convoy",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Hit The Skids Unlock| OR |Progressive Episode Unlock:4|"
+  },
+  {
+    "name": "Fearless",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Hit The Skids Unlock| OR |Progressive Episode Unlock:4|"
+  },
+  {
+    "name": "On The Run",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Splashdown Unlock| OR |Progressive Episode Unlock:1|"
+  },
+  {
+    "name": "Clear Skies",
+    "region": "Midway Pass",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Once, Twice, Three Times Evasive",
+    "category": [
+      "Non-Grindy Decal"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Splashdown Unlock| OR |Progressive Episode Unlock:1|"
+  },
+  {
+    "name": "Earn 100 Credits",
+    "region": "Rigged to Blow",
+    "category": [
+      "Credits"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Earn 200 Credits",
+    "region": "Rigged to Blow",
+    "category": [
+      "Credits"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Earn 300 Credits",
+    "region": "Rigged to Blow",
+    "category": [
+      "Credits"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Earn 400 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Splashdown Unlock| OR |Progressive Episode Unlock|"
+  },
+  {
+    "name": "Earn 500 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Splashdown Unlock| OR |Progressive Episode Unlock|"
+  },
+  {
+    "name": "Earn 650 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "(|Big Rig Boom Unlock| AND |Splashdown Unlock|) OR |Sunset Fire Unlock| OR |Hit The Skids Unlock| OR |Progressive Episode Unlock:2|"
+  },
+  {
+    "name": "Earn 800 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "(|Big Rig Boom Unlock| AND |Splashdown Unlock|) OR |Sunset Fire Unlock| OR |Hit The Skids Unlock| OR |Progressive Episode Unlock:2|"
+  },
+  {
+    "name": "Earn 1000 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "(|Big Rig Boom Unlock| AND |Splashdown Unlock| AND |Sunset Fire Unlock|) OR (|Hit The Skids Unlock| AND |Splashdown Unlock| AND |Sunset Fire Unlock|) OR (|Big Rig Boom Unlock| AND |Hit The Skids Unlock| AND |Sunset Fire Unlock|) OR (|Big Rig Boom Unlock| AND |Splashdown Unlock| AND |Hit The Skids Unlock|) OR |Progressive Episode Unlock:3|"
+  },
+  {
+    "name": "Earn 1200 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "(|Big Rig Boom Unlock| AND |Splashdown Unlock| AND |Sunset Fire Unlock|) OR (|Hit The Skids Unlock| AND |Splashdown Unlock| AND |Sunset Fire Unlock|) OR (|Big Rig Boom Unlock| AND |Hit The Skids Unlock| AND |Sunset Fire Unlock|) OR (|Big Rig Boom Unlock| AND |Splashdown Unlock| AND |Hit The Skids Unlock|) OR |Progressive Episode Unlock:3|"
+  },
+  {
+    "name": "Earn 1400 Credits",
+    "region": "Midway Pass",
+    "category": [
+      "Credits"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Earn 1600 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "|Threshold Break Unlock| OR |Cleaning Up Unlock| OR |Progressive Episode Unlock:6|"
+  },
+  {
+    "name": "Earn 1800 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "|Threshold Break Unlock| OR |Cleaning Up Unlock| OR |Progressive Episode Unlock:6|"
+  },
+  {
+    "name": "Earn 2000 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "((|Threshold Break Unlock| AND |Cleaning Up Unlock|) OR (|Threshold Break Unlock| AND |Scorched Rubber Unlock|) OR (|Cleaning Up Unlock| AND |Scorched Rubber Unlock|) OR (|Cleaning Up Unlock| AND |Boneyard Rush Unlock|)) OR |Progressive Episode Unlock:7|"
+  },
+  {
+    "name": "Earn 2200 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "((|Threshold Break Unlock| AND |Cleaning Up Unlock| AND |Scorched Rubber Unlock|) OR (|Threshold Break Unlock| AND |Cleaning Up Unlock| AND |Boneyard Rush Unlock|) OR (|Threshold Break Unlock| AND |Scorched Rubber Unlock| AND |Boneyard Rush Unlock|) OR (|Cleaning Up Unlock| AND |Scorched Rubber Unlock| AND |Boneyard Rush Unlock|)) OR |Progressive Episode Unlock:8|"
+  },
+  {
+    "name": "Earn 2400 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "((|Threshold Break Unlock| AND |Cleaning Up Unlock| AND |Scorched Rubber Unlock|) OR (|Threshold Break Unlock| AND |Cleaning Up Unlock| AND |Boneyard Rush Unlock|) OR (|Threshold Break Unlock| AND |Scorched Rubber Unlock| AND |Boneyard Rush Unlock|) OR (|Cleaning Up Unlock| AND |Scorched Rubber Unlock| AND |Boneyard Rush Unlock|)) OR |Progressive Episode Unlock:8|"
+  },
+  {
+    "name": "Earn 2600 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "((|Scorched Rubber Unlock| OR |Boneyard Rush Unlock|) AND |Cleaning Up Unlock| AND |Threshold Break Unlock|) OR |Progressive Episode Unlock:9|"
+  },
+  {
+    "name": "Earn 2800 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "|Boneyard Rush Unlock| OR |One Last Push Unlock| OR |Progressive Episode Unlock:10|"
+  },
+  {
+    "name": "Earn 3000 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "|Boneyard Rush Unlock| OR |One Last Push Unlock| OR |Progressive Episode Unlock:10|"
+  },
+  {
+    "name": "Earn 3300 Credits",
+    "category": [
+      "Credits"
+    ],
+    "requires": "|Boneyard Rush Unlock| AND |One Last Push Unlock| OR |Progressive Episode Unlock:11|"
+  },
+  {
+    "name": "Earn 3600 Credits",
+    "region": "Out With A Bang",
+    "category": [
+      "Credits"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged To Blow Wrecks (20)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom Wrecks (20)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown Wrecks (25)",
+    "region": "Splashdown",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire Wrecks (30)",
+    "region": "Sunset Fire",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids Wrecks (20)",
+    "region": "Hit The Skids",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass Wrecks (20)",
+    "region": "Midway Pass",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break Wrecks (25)",
+    "region": "Threshold Break",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up Wrecks (30)",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber Wrecks (25)",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush Wrecks (30)",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "region": "One Last Push",
+    "name": "One Last Push Wrecks (30)",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Out With A Bang",
+    "name": "Out With A Bang Wrecks (25)",
+    "category": [
+      "Wrecks"
+    ],
+    "requires": []
+  },
+{
+    "name": "Rigged to Blow (Race 1 Win)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Race 2 Win)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Elimination 1 Win)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Elimination",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Elimination 2 Win)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Elimination",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Detonator Bonus Win)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Detonator",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rigged to Blow (Elite Race Qualified)",
+    "region": "Rigged to Blow",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "|Big Rig Boom Unlock| OR |Splashdown Unlock| OR |Progressive Episode Unlock|"
+  },
+  {
+    "name": "Big Rig Boom (Race 1 Win)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Survival Win)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Survival",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Race 2 Win)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Detonator Win)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Detonator",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Air Strike Bonus Win)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Air Strike",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Big Rig Boom (Elite Race Qualified)",
+    "region": "Big Rig Boom",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "(|Splashdown Unlock| OR |Progressive Episode Unlock:2|) OR ((|Sunset Fire Unlock| AND (|Big Rig Boom Unlock| OR |Splashdown Unlock|)) OR |Progressive Episode Unlock:3|) OR ((|Hit The Skids Unlock| AND (|Big Rig Boom Unlock| OR |Sunset Fire Unlock|))OR |Progressive Episode Unlock:4|)"
+  },
+  {
+    "region": "Splashdown",
+    "name": "Splashdown (Race 1 Win)",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Race 2 Win)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Air Strike 1 Win)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Air Strike",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Elimination Win)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Elimination",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Air Strike Bonus Win)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Air Strike",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Splashdown (Elite Race Qualified)",
+    "region": "Splashdown",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "(|Big Rig Boom Unlock| OR |Progressive Episode Unlock|) OR ((|Sunset Fire Unlock| AND (|Big Rig Boom Unlock| OR |Splashdown Unlock|)) OR |Progressive Episode Unlock:3|)"
+  },
+  {
+    "region": "Sunset Fire",
+    "name": "Sunset Fire (Elimination Win)",
+    "category": [
+      "Event",
+      "Elimination",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Detonator 1 Win)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Detonator",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Race 1 Win)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Race 2 Win)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Detonator Bonus Win)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Detonator",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sunset Fire (Elite Race Qualified)",
+    "region": "Sunset Fire",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "(|Big Rig Boom Unlock| OR |Progressive Episode Unlock|) OR (|Splashdown Unlock| OR |Progressive Episode Unlock:2|) OR ((|Hit The Skids Unlock| AND (|Big Rig Boom Unlock| OR |Sunset Fire Unlock|))OR |Progressive Episode Unlock:4|)"
+  },
+  {
+    "region": "Hit The Skids",
+    "name": "Hit The Skids (Race 1 Win)",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Survival Win)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Survival",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Race 2 Win)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Air Strike Win)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Air Strike",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Detonator Bonus Win)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Detonator",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hit The Skids (Elite Race Qualified)",
+    "region": "Hit The Skids",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "(|Midway Pass Unlock| AND |Big Rig Boom Unlock| AND |Splashdown Unlock| AND |Sunset Fire Unlock| AND |Hit The Skids Unlock|) OR |Progressive Episode Unlock:5|"
+  },
+  {
+    "name": "Midway Pass (Race 1 Win)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass (Air Revenge Win)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Air Revenge",
+      "Win"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "name": "Midway Pass (Race 2 Win)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass (Survival Win)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Survival",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass (Detonator Bonus Win)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Detonator",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Midway Pass (Elite Race Qualified)",
+    "region": "Midway Pass",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "((|Threshold Break Unlock| AND |Midway Pass Unlock|) OR |Progressive Episode Unlock:6|) OR ((|Cleaning Up Unlock| AND (|Threshold Break Unlock| OR |Scorched Rubber Unlock|))OR |Progressive Episode Unlock:7|)"
+  },
+  {
+    "region": "Threshold Break",
+    "name": "Threshold Break (Race 1 Win)",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break (Air Revenge Win)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Air Revenge",
+      "Win"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "name": "Threshold Break (Race 2 Win)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Race",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break (Detonator Win)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Detonator",
+      "Win"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break (Elimination Bonus Win)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Threshold Break (Elite Race Qualified)",
+    "region": "Threshold Break",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "((|Cleaning Up Unlock| AND (|Threshold Break Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:7|) OR ((|Scorched Rubber Unlock| AND (|Threshold Break Unlock| OR |Cleaning Up Unlock|)) OR |Progressive Episode Unlock:8|)"
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Race 1 Win)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Race 2 Win)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Elimination Win)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Air Revenge Win)",
+    "category": [
+      "Event",
+      "Air Revenge"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "region": "Cleaning Up",
+    "name": "Cleaning Up (Detonator Bonus Win)",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cleaning Up (Elite Race Qualified)",
+    "region": "Cleaning Up",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "((|Scorched Rubber Unlock| AND (|Threshold Break Unlock| OR |Cleaning Up Unlock|)) OR |Progressive Episode Unlock:8|) OR ((|Boneyard Rush Unlock| AND (|Cleaning Up Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:9|)"
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Race 1 Win)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Air Revenge Win)",
+    "category": [
+      "Event",
+      "Air Revenge"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|"
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Race 2 Win)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Survival Win)",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Detonator Bonus Win)",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Scorched Rubber",
+    "name": "Scorched Rubber (Elite Race Qualified)",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Race Win)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Elimination 1 Win)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Survival Win)",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Detonator Win)",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Elimination Bonus Win)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Boneyard Rush",
+    "name": "Boneyard Rush (Elite Race Qualified)",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "((|Cleaning Up Unlock| AND (|Threshold Break Unlock| OR |Scorched Rubber Unlock|))OR |Progressive Episode Unlock:7|) OR ((|Boneyard Rush Unlock| AND (|Cleaning Up Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:9|) OR ((|One Last Push Unlock| AND (|Boneyard Rush Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:10|)"
+  },
+  {
+    "region": "One Last Push",
+    "name": "One Last Push (Elimination 1 Win)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "One Last Push (Race Win)",
+    "region": "One Last Push",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": []
+  },
+  {
+    "name": "One Last Push (Survival 1 Win)",
+    "region": "One Last Push",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "name": "One Last Push (Elimination 2 Win)",
+    "region": "One Last Push",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "One Last Push (Survival Bonus Win)",
+    "region": "One Last Push",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": []
+  },
+  {
+    "region": "One Last Push",
+    "name": "One Last Push (Elite Race Qualified)",
+    "category": [
+      "Event",
+      "Elite",
+      "Qualified"
+    ],
+    "requires": "((|Boneyard Rush Unlock| AND (|Cleaning Up Unlock| OR |Scorched Rubber Unlock|)) OR |Progressive Episode Unlock:9|) OR ((|Out With A Bang Unlock| AND |Threshold Break Unlock| AND |Cleaning Up Unlock| AND |Scorched Rubber Unlock| AND |Boneyard Rush Unlock| AND |One Last Push Unlock|) OR |Progressive Episode Unlock:11|)"
+  },
+  {
+    "region": "Out With A Bang",
+    "name": "Out With A Bang (Elimination Win)",
+    "category": [
+      "Event",
+      "Elimination"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Out With A Bang (Race Win)",
+    "category": [
+      "Event",
+      "Race"
+    ],
+    "requires": [],
+    "region": "Out With A Bang"
+  },
+  {
+    "name": "Out With A Bang (Survival Win)",
+    "category": [
+      "Event",
+      "Survival"
+    ],
+    "requires": [],
+    "region": "Out With A Bang"
+  },
+  {
+    "name": "Out With A Bang (Detonator Win)",
+    "category": [
+      "Event",
+      "Detonator"
+    ],
+    "requires": [],
+    "region": "Out With A Bang"
+  },
+  {
+    "name": "Out With A Bang (Air Revenge Bonus Win)",
+    "category": [
+      "Event",
+      "Air Revenge"
+    ],
+    "requires": "|Level 1 Power Plays| OR |Level 2 Power Plays| OR |Progressive Power Plays|",
+    "region": "Out With A Bang"
+  }
+]

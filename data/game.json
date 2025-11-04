@@ -1,0 +1,27 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "SplitSecond",
+  "creator": "UnProx",
+  "filler_item_name": "Filler Wreck",
+  "death_link": true,
+  "starting_items": [
+        {
+            "item_categories": ["Starter Car"],
+            "random": 1,
+			"yaml_option": ["random_starter_car"]
+        },
+		{
+            "item_categories": ["Car"],
+            "random": 1,
+			"yaml_option": ["random_car"]
+        },
+        {
+            "items": ["Ryback Brawler","Cobretti 455 GT","Ryback Tornado"],
+            "yaml_option": ["!random_starter_car"]
+        },
+		{
+            "items": ["Level 1 Power Plays", "Level 2 Power Plays"],
+            "yaml_option": ["!lock_power_plays"]
+        }
+		]
+}

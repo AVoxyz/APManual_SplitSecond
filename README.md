@@ -38,6 +38,8 @@ Forced Power Play Trap: Forces the next Power Play that appears to be triggered.
 ## Additional Details & Caveats
 The base game has a bug in Episode 6 where the save file becomes corrupted until an Event in Episode 7 is completed. You can wait until an Episode after 6 is available, or create a backup save.
 
+Since Elite Races force you to choose the next Episode upon completion, they're only in logic once one of the next Episodes are available.
+
 An additional "splitsecond.params" file is available, which unlocks all cars. This helps if using Non-Progressive Car unlocks.
 
 ## Installation Instructions
